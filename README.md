@@ -11,11 +11,11 @@ Macro keyboard using a Raspberry Pi Pico board
         2. desired number of switches/buttons.  i used cherry mx switches.
     
     Library Requirements:
-        1. adafruit circuitpython
-        2. adafruit_hid (specifically keyboard, keyboard_layout, keyboard_layout_us and keycode)
-        3. adafruit_debouncer
-            a. adafruit_ticks
-        4. dadzilla_button - helper class for handling the button setup with debouncer and keycode objects.
+        1. adafruit circuitpython (NOT INCLUDED)
+        2. adafruit_hid (included)
+        3. adafruit_debouncer (included)
+        4. adafruit_ticks (included)
+        5. dadzilla_button (included)
     
     Setup:
         1. configure the pins used on the Raspberry Pi Pico in the array  labeled "pins"  This should be
