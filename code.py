@@ -39,10 +39,22 @@ from dadzilla_button import Button
 
 # define the pins to keycode mappings.
 # the pins should be in the same array position as the desired keycodes for that respective position
-pins = [board.GP16,
-        board.GP17]
+pins = [board.GP12,
+        board.GP13,
+        board.GP14,
+        board.GP15,
+        board.GP16,
+        board.GP17,
+        board.GP18,
+        board.GP19]
 keycodes = [Keycode.F13,
-            Keycode.F14]
+            Keycode.F14,
+            Keycode.F15,
+            Keycode.F16,
+            Keycode.F17,
+            Keycode.F18,
+            Keycode.F19,
+            Keycode.F20]
 
 # Check if there are enough pins defined for desired keys
 if len(pins) < len(keycodes):
