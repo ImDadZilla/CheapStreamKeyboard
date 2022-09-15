@@ -9,13 +9,18 @@ class Button:
     
     numberOfButtons = 0
     
-    def __init__(self, debouncer, keycode):
+    def __init__(self, debouncer, keycode, pin, led):
         self.debouncer = debouncer
         self.keycode = keycode
+        self.pin = pin
+        self.led = led
         Button.numberOfButtons += 1
         
     def getDebouncer(self):
         return self.debouncer
+    
+    def getPin(self):
+        return self.pin
         
     def getKeycode(self):
         return self.keycode
@@ -36,6 +41,9 @@ class Button:
         keyboard.press(self.keycode)
         time.sleep(0.03)
         keyboard.release(self.keycode)
+        
+    def ledValue(self, dutyCycle):
+        self.led.duty_cycle=dutyCycle
     
     @staticmethod
     def getNumberOfButtons():
