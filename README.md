@@ -1,8 +1,8 @@
-# CheapStreamDeck-RPI-Pico
+# CheapStreamKeyboard
 Macro keyboard using a Raspberry Pi Pico board
 
 
-    Cheap Stream Deck - Macro Keyboard
+    Cheap Stream Keybaord - Macro Keyboard
     Author: DadZilla
     Version: 0.1
     
