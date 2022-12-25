@@ -69,7 +69,7 @@ keycodes = [Keycode.F13,
 if len(pins) < len(keycodes):
     raise Exception("Not enough pins to cover all the keycodes")
 elif len(pins) > len(keycodes):
-    print("WARNING! More pins than keycodes. Continueing but only for those keycodes defined")
+    print("WARNING! More pins than keycodes. Continuing but only for those keycodes defined")
     numOfKeys = len(keycodes)
 else:
     numOfKeys = len(pins)
