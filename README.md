@@ -1,12 +1,16 @@
 # CheapStreamKeyboard
+
 A macro keyboard using a Raspberry Pi Pico board.
 
     Cheap Stream Keybaord - Macro Keyboard
     Author: DadZilla
     Version: 0.1
+    
+![Cheap Stream Pic](README_ASSETS/20220929_002416462_iOS.jpg)
 
 ## How It Works:
 The keyboard works by emulating extended function keys F13 - F20.  By themselves the keys do nothing until bound within an application.  For example, if you wanted to use the keys to control functions while on a Zoom call, you can set Keyboard Shortcuts in Zoom.
+
 ![Zoom Keyboard Shortcuts Screenshot](README_ASSETS/ZoomKeyboardShortcuts-ScreenShot-1.png)
 
 The same thing can be done in applications like Discord or games to record a keybind to these new function keys.
